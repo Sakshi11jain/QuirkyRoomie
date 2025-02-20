@@ -6,7 +6,7 @@ QuirkyRoomie is a Flatmate Conflict Management System that helps flatmates file 
 ## Features
 - **User Authentication**: Signup/Login functionality.
 - **File Complaints**: Users can submit complaints.
-- **View Complaints**: Users can check previous complaints.
+- **View Complaints**: Users can check previous complaints, mark them resolved, can upvote or downvote and see the punishment if upvote is 10+.
 - **Leaderboard**: A ranking system for engagement.
 - **Logout**: Secure logout functionality.
 
