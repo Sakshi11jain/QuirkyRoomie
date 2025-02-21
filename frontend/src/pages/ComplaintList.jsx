@@ -26,7 +26,6 @@ const ComplaintList = () => {
         );
         setTopComplaint(highestUpvoted);
 
-        // If upvotes are 10+, assign a random punishment
         if (highestUpvoted.upvotes >= 10) {
           setPunishment(punishments[Math.floor(Math.random() * punishments.length)]);
         } else {
