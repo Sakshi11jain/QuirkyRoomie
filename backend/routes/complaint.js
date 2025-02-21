@@ -116,6 +116,7 @@ router.get("/top-complaint", authMiddleware, async (req, res) => {
   }
 });
 
+// Get best flatmates
 router.get("/best-flatmate", authMiddleware, async (req, res) => {
   try {
     const bestFlatmate = await Complaint.aggregate([
@@ -137,6 +138,7 @@ router.get("/best-flatmate", authMiddleware, async (req, res) => {
   }
 });
 
+//complaint resolved marking
 router.put("/:id/resolve", async (req, res) => {
   try {
       const complaint = await Complaint.findById(req.params.id);
